@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngfire"
+    }
+  },
+  "defaultProject": "ngfire",
+  "cli": {
+    "packageManager": "yarn"
+  }
 }
