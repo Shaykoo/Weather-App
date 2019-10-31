@@ -19,7 +19,7 @@ export class WeatherSearchComponent implements OnInit {
   ngOnInit() {
   }
 
-  set weather(data:Weather){  // we are seding the whole JSON data object(weather) in the interface we want to a service which we can inject in any component where we want to use this data 
+  set weather(data:Weather){  // we are sen ding the whole JSON data object(weather) in the interface we want to a service which we can inject in any component where we want to use this data 
     this.weatherDataService.weather = data;
   }
 

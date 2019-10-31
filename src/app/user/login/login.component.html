@@ -1,0 +1,12 @@
+<div fxlayout="row"
+     fxlayoutAlign="space-around start"
+     class="top-container">
+     
+     <ngx-auth-firebaseui 
+     [guestEnabled]="true"
+     [providers]="[providers.Google]"
+     (onSuccess)="successLogIn()">
+ </ngx-auth-firebaseui>
+
+</div>
+

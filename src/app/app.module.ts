@@ -29,10 +29,10 @@ import { FormsModule } from '@angular/forms';
     MatIconModule,
     MatListModule,
     BrowserAnimationsModule,
-    HttpClientModule,
+    HttpClientModule,    
     FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

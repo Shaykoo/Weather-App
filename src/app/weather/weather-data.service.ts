@@ -15,5 +15,14 @@ export class WeatherDataService {
     lat: null,
     lon: null
   }
+
   constructor() { }
+
+  // getCelcius() {
+  //   let fTemp = this.weather.temprature;
+  //   let fToCel = (fTemp - 32) * 5 / 9;
+  //     console.log(fToCel);
+  // } 
+
+  // getCelcius
 }

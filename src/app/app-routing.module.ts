@@ -6,6 +6,9 @@ const routes: Routes = [
   {path:'', pathMatch:'full', redirectTo:'weather'},
   {path:'weather', 
    loadChildren:'./weather/weather.module#WeatherModule'    //loadChildren is going to load all the routes that we define in weather routing Module
+  },
+  {path:'user', 
+   loadChildren:'./user/user.module#UserModule'
   }
 ];
 

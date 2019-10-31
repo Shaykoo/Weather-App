@@ -7,7 +7,7 @@
             </div>
             <mat-card-title>{{weather.name}},{{weather.country}}</mat-card-title>
             <mat-card-subtitle>
-                {{weather.temprature | number: '1.0-0'}} Farenheit
+                {{weather.temprature | number: '1.0-0'}}℉ 
             </mat-card-subtitle>
         </mat-card-header>
         <agm-map [latitude]="weather.lat" [longitude]="weather.lon">
@@ -21,8 +21,9 @@
                 {{weather.description}}
             </p>
         </mat-card-content>
-        <mat-card-actions>
-            <button mat-button>Save</button>
+        <mat-card-actions align="center">
+            <button mat-raised-button color="primary"
+            (click)="addCity(weather)">Save</button>
         </mat-card-actions>
     </mat-card>
 </div>
