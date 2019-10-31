@@ -12,7 +12,7 @@ import { NgxAuthFirebaseUIModule } from 'ngx-auth-firebaseui';
   imports: [
     CommonModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule,
+    AngularFirestoreModule.enablePersistence(),
     AngularFireStorageModule,
     AngularFireAuthModule,
     NgxAuthFirebaseUIModule.forRoot(environment.firebase)
