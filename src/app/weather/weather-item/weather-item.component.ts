@@ -25,7 +25,7 @@ export class WeatherItemComponent implements OnInit {
               private userAuthService: UserAuthService,
               private firebaseService: FirebaseService,
               private snackBar: MatSnackBar) {
-                this.userAuthService.user$.subscribe(user => this.user$=user)
+                this.userAuthService.user$.subscribe(user => this.user$ = user)
                }
 
 

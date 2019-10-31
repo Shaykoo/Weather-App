@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
-  successLogIn(content: any){  // the whole user object is in content
+  successLogIn(){  // the whole user object is in content content: any
     this.snackBar.open(`You have Signed In`, 'OK', {
       duration:5000
     });
